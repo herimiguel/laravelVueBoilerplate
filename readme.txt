@@ -42,8 +42,8 @@ DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE={change}
-DB_USERNAME=root
-DB_PASSWORD=root
+DB_USERNAME={"your username"}
+DB_PASSWORD={"your password"}
      >Open msqlwb make sure its connected
             create schema (same NAME you assigned DB_DATABASE={NAME}
      >In "AppServiceProvider.php" file
